@@ -1,0 +1,14 @@
+#ترحيب عام
+print("Welcome to our application")
+#طلب من المستخدم ادخال اسمه والاحتفاظ به في متغير 
+user_name = input ("What is your name?\n")
+#عرض رسالة ترحيب مخصصة لهذا المستخدم
+print ("Nice to meet you "+ (user_name))
+#عرض رسالة تخبر المستخدم بعدد حروف اسمه
+name_len = len (user_name)
+print (name_len)
+user_age = input ("How old are yoy:\n")
+user_email = input ("What is your email?\n")
+
+
+
